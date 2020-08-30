@@ -25,6 +25,19 @@
 
     function plug_scripts_page()
     {
+
+        if(array_key_exists('submit_scripts_update',$_POST))
+		{
+			update_option('plug_header',$_POST['header_scripts']);
+			update_option('plug_footer',$_POST['footer_script']);
+
+			?>
+			<div id="setting-error-settings-updated" class="updated_settings_error notice is-dismissible"><strong>Settings have been saved.</strong></div>
+			<?php
+
+        }
+        
+
         $header_scripts = get_option('plug_header', 'none');
         $footer_scripts = get_option('plug_footer', 'none');
        ?>
