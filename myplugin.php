@@ -2,7 +2,7 @@
 /**
  * Plugin name: Ashimi's First Plug
  * Author: <a href="https://ashimi.xyz" target="_blank">Ashimi Abdulwahab</a>
- * Description: Ashimi playing around. lol.
+ * Description: Ashimi playing around. lol. <a href="https://blog.ashimi.xyz" target="_blank">Visit for Daily tips and tricks</a>
  * Version: 1
  * 
 **/
